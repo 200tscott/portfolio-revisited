@@ -2,7 +2,7 @@
     border: 1px solid blue;
     padding: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: col;
     background-color: aqua;
     
 }
@@ -19,7 +19,7 @@
     padding: 10px;
     margin: 10px;
     display: flex;
-    flex-direction: col;
+    flex-direction: row;
     text-align: end;
     
 
@@ -39,6 +39,7 @@
     flex-direction: col;
     flex-grow: 1;
     text-align: center;
+    font-style: italic;
 }
 
 .body {
@@ -48,9 +49,15 @@
        
 }
 
-.img-with-text{
-    text-align: justify;
+.img1{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
     width: 50px;
     flex-direction: row;
+    display: flex;
+    margin: 0 auto;
 
 }
