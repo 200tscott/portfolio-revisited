@@ -1,0 +1,45 @@
+.parent {
+    border: 1px solid blue;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    
+}
+
+.header{
+    border: 10px;
+    display: flex;
+    justify-content: left;
+
+
+}
+
+.categories {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.icon { 
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.information {
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: col;
+    flex-grow: 1;
+}
+
+.body {
+    background-color: aqua;
+
+       
+}
